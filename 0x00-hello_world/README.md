@@ -6,3 +6,4 @@
 5 write a C program that prints exactly -with proper grammar, but the outcome is a piece of art,- followed by a new line; use printf, not puts; return 0; compile without warning when using the -Wall gcc option  
 6 write a C program that prints the size of various types on the computer it is compiled and run on; produce exact same output as example; warnings are allowed; return 0; might have to install libc6-dev-i386 on linux to test -m32 gcc option  
 7 write a script that generates the assembly code (intel syntax) of a C code and save it in an output file; name main.c; output file should be named same as C file with ext .s  
+8 write a C programme that prints exactly: and that piece of art is useful" - Dora Korpar, 2015-10-19; followed by a new line to the standard error; not allowed to use functions in NAME section of man printf or man puts; compile without warnings using -Wall gcc option  
