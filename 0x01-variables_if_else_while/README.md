@@ -6,3 +6,4 @@
 5 write a program that prints all single digit numbers of base 10 starting from zero followed by a new line; all in main  
 6 write a program that prints all single digit numbers of base 10 from zero, followed by new line; no variables of type char; only use putchar, twice; in main  
 7 writ a program that prints lowercase alphabet in reverse, newline; only putchar, twice; in main   
+8 write a program that prints all the numbers of base 16 in lowercase, newline; only putchar, three times; in main   
