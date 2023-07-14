@@ -2,3 +2,4 @@
 1 this program assigns a random number to the variable n, complete source code to print last digit of of number stored in n; out put should be 'Last digit of' followed by n, followed by 'is' followed by if last digit is greater than 5 'and is greater than 5'; if last digit is zero; if last digit is less than 6 and not zero; with newline  
 2 write a program that prints the alphabet in lowercase, followed by a new line; only use putchar function; all code in main; only use putchar twice in code  
 3 write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line; only use putchar; in main; use putchar three times  
+4 write a program that prints the alphabet in lowercase, followed by a new line; print all characters except q and e; in main; putchar twice  
