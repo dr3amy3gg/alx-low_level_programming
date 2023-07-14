@@ -8,3 +8,4 @@
 7 writ a program that prints lowercase alphabet in reverse, newline; only putchar, twice; in main   
 8 write a program that prints all the numbers of base 16 in lowercase, newline; only putchar, three times; in main   
 9 write a program that prints all possible combinations of single digit numbers; numbers must be separated followed by a space; printedin ascending order; only putchar, four times max; in main; no char variables  
+10 write a program that prints all possible different combinations of two digits; numbers separated by , followed by a space; two digits must be different; 01 and 10 are considered th same combo of the two digits 0 and 1; print only smallest combo of two digits; ascending order, with two digits; only putchar, five times max; no char variables; in main  
