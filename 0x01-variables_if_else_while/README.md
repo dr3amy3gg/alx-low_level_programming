@@ -7,3 +7,4 @@
 6 write a program that prints all single digit numbers of base 10 from zero, followed by new line; no variables of type char; only use putchar, twice; in main  
 7 writ a program that prints lowercase alphabet in reverse, newline; only putchar, twice; in main   
 8 write a program that prints all the numbers of base 16 in lowercase, newline; only putchar, three times; in main   
+9 write a program that prints all possible combinations of single digit numbers; numbers must be separated followed by a space; printedin ascending order; only putchar, four times max; in main; no char variables  
