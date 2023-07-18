@@ -21,7 +21,7 @@ int main(void)
 		a = b;
 		b = c;
 		c = a + b;
+		index++;
 	}
-	index++;
 	return (0);
 }
