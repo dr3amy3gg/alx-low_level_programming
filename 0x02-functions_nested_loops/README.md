@@ -10,3 +10,4 @@
 9 write a function that prints the 9 times tables, starting with 0; prototype: void times_table(void)  
 10 write function that adds two integers and returns the result  
 11 write a function that prints all natural numbers from n to 98, followed by a new line; prototype: void print_to_98(int n); numbers must be separated by comma and space; printed in order; the first printed number should be number passed to function; last number should be 98; can use standard library  
+12 write a timetable that prints the n timetable, starting with 0; void print_times_table(int n); if n < 0 or > 15 don't print anything  

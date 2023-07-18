@@ -71,3 +71,9 @@ int add(int, int);
  * @n: input
  */
 void print_to_98(int n);
+
+/**
+ * print_times_table - prints the time table of given integer
+ * @n: input
+ */
+void print_times_table(int n);
