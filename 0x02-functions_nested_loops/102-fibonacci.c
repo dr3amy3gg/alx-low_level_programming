@@ -23,5 +23,6 @@ int main(void)
 		c = a + b;
 		index++;
 	}
+	printf("\n");
 	return (0);
 }
