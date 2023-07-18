@@ -27,3 +27,10 @@ int _islower(int c);
  * Return: 1 or 0
  */
 int _isalpha(int c);
+
+/**
+ * print_sign - determine whether positive or negative value
+ * @n: input
+ * Return: 1, 0, or -1
+ */
+int print_sign(int n);
