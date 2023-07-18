@@ -65,3 +65,9 @@ void times_table(void);
  * Return: result of sum
  */
 int add(int, int);
+
+/**
+ * print_to_98 - prints natural numbers from nth term to 98
+ * @n: input
+ */
+void print_to_98(int n);

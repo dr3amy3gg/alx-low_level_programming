@@ -9,3 +9,4 @@
 8 write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59; prototype: void jack_bauer(void)  
 9 write a function that prints the 9 times tables, starting with 0; prototype: void times_table(void)  
 10 write function that adds two integers and returns the result  
+11 write a function that prints all natural numbers from n to 98, followed by a new line; prototype: void print_to_98(int n); numbers must be separated by comma and space; printed in order; the first printed number should be number passed to function; last number should be 98; can use standard library  
