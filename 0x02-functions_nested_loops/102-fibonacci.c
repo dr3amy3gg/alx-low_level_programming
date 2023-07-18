@@ -15,7 +15,7 @@ int main(void)
 
 	printf("%ld, ", b);
 
-	while (index <= 50)
+	while (index < 50)
 	{
 		printf("%ld, ", c);
 		a = b;
