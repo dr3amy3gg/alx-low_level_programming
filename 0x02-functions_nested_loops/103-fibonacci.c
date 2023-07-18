@@ -12,19 +12,17 @@ int main(void)
 	long int a = 1;
 	long int b = a + 1;
 	long int c = a + b;
-	int index = 0;
-	long int sum = 0;
+	long int sum = c;
 
 	while (c < 4000000)
 	{
-		if (index % 2 == 0)
+		if (c % 2 == 0)
 		{
 			sum += c;
 		}
 		a = b;
 		b = c;
 		c = a + b;
-		index++;
 	}
 	printf("%ld\n", sum);
 	return (0);
