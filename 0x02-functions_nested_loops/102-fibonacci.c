@@ -11,7 +11,7 @@ int main(void)
 	long int a = 1;
 	long int b = a;
 	long int c = a + b;
-	int index;
+	int index = 1;
 
 	printf("%ld, %ld, ", a, b);
 
