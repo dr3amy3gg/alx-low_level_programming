@@ -5,3 +5,9 @@
  */
 
 int _puthchar(char c);
+
+/**
+ * print_alphabet - prints the alphabet in lowercase
+ */
+
+void print_alphabet(void);
