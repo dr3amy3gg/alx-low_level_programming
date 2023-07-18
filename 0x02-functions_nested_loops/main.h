@@ -34,3 +34,10 @@ int _isalpha(int c);
  * Return: 1, 0, or -1
  */
 int print_sign(int n);
+
+/**
+ * _abs - computes absolute value of int
+ * @int: integer input
+ * Return: integer or absolute value of int
+ */
+int _abs(int);
