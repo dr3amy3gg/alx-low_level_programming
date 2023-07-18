@@ -41,3 +41,10 @@ int print_sign(int n);
  * Return: integer or absolute value of int
  */
 int _abs(int);
+
+/**
+ * print_last_digit - prints last digit of a number
+ * @int: input
+ * Return: last digit of number
+ */
+int print_last_digit(int)
