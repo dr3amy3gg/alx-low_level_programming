@@ -6,3 +6,4 @@
 5 write a function that prints the sign of a number; prototype: int print_sign(int n); return 1 and print + if positive, return 0 and print 0 if zero, return -1 and print - if negative  
 6 write a function that computes the absolute value of an integer; prototype: int _abs(int)  
 7 write a fucntion that prints the last digit of a number; prototype: int print_last_digit(int); return value of last digit  
+8 write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59; prototype: void jack_bauer(void)  
