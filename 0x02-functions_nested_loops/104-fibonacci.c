@@ -12,11 +12,11 @@ int main(void)
 	unsigned long int c = a + b;
 	int index = 1;
 
-	printf("%lu", b);
+	printf("%X", b);
 
 	while (index < 98)
 	{
-		printf(", %lu", c);
+		printf(", %X", c);
 		a = b;
 		b = c;
 		c = a + b;
