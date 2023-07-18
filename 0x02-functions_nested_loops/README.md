@@ -8,3 +8,4 @@
 7 write a fucntion that prints the last digit of a number; prototype: int print_last_digit(int); return value of last digit  
 8 write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59; prototype: void jack_bauer(void)  
 9 write a function that prints the 9 times tables, starting with 0; prototype: void times_table(void)  
+10 write function that adds two integers and returns the result  
