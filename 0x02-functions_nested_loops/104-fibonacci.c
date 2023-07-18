@@ -7,16 +7,16 @@
 
 int main(void)
 {
-	long int a = 1;
-	long int b = a;
-	long int c = a + b;
+	float a = 1;
+	float b = a;
+	float c = a + b;
 	int index = 1;
 
-	printf("%ld", b);
+	printf("%.0f", b);
 
 	while (index < 98)
 	{
-		printf(", %ld", c);
+		printf(", %.0f", c);
 		a = b;
 		b = c;
 		c = a + b;
