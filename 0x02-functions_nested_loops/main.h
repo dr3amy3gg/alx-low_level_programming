@@ -1,7 +1,6 @@
 /**
  * _putchar - writes the character c to std
  * @c: parameter to compare
- * Return: 1 or 0
-
+ */ Return: 1 or 0
 
 int _puthchar(char c);
