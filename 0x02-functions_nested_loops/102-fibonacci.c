@@ -13,7 +13,7 @@ int main(void)
 	long int c = a + b;
 	int index = 1;
 
-	printf("%ld, %ld, ", a, b);
+	printf("%ld, ", b);
 
 	while (index <= 50)
 	{
@@ -22,5 +22,6 @@ int main(void)
 		b = c;
 		c = a + b;
 	}
+	index++;
 	return (0);
 }
