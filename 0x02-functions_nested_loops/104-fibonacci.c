@@ -1,30 +1,26 @@
 #include <stdio.h>
+
 /**
- * main - main function
- *
- * Return: nothing
+ * main - entry point
+ * Return: 0
  */
+
 int main(void)
 {
-	int counter = 2;
+	unsigned long int a = 1;
+	unsigned long int b = a;
+	unsigned long int c = a + b;
+	int index = 1;
 
-	float a = 1;
-	float b = a + 1;
-	float c = a + b;
+	printf("%lu", b);
 
-	printf("%.0f, ", a);
-	printf("%.0f, ", b);
-	while (counter < 98)
+	while (index < 98)
 	{
-		counter++;
-		printf("%.0f", c);
+		printf(", %lu", c);
 		a = b;
 		b = c;
 		c = a + b;
-		if (counter < 98)
-		{
-			printf(", ");
-		}
+		index++;
 	}
 	printf("\n");
 	return (0);
