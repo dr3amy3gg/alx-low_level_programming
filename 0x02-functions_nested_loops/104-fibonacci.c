@@ -7,9 +7,9 @@
 
 int main(void)
 {
-	unsigned long int a = 1;
-	unsigned long int b = a;
-	unsigned long int c = a + b;
+	unsigned int a = 1;
+	unsigned int b = a;
+	unsigned int c = a + b;
 	int index = 1;
 
 	printf("%X", b);
