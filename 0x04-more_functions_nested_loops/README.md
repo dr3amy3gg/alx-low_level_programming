@@ -8,3 +8,4 @@
 7 write a function that draws a diagonal line on the terminal; void print_diagonal(int n); only use _putchar;
 n is number of times the character \ should be printed; end in new line; if n<0 only print new line  
 8 write a function that prints a square, followed by a new linel void print_square(int size; size is a the size of square, if size <0 only print new line; use the char # to print the square  
+9write a program that prints 1 to 100; followed by new line;if multiple of 3, print Fizz, for multiple of 5 print Buzz, for multiples of 3 and 5 print FizzBuzz; separated by space; use stdio  
