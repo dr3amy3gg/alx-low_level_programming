@@ -7,3 +7,4 @@
 6 write a function that draws a straight linein the terminal; void print_line(int n); use only _putchar to print; n is the number of times _ must be printed; end with new line; if n<0 only print new line  
 7 write a function that draws a diagonal line on the terminal; void print_diagonal(int n); only use _putchar;
 n is number of times the character \ should be printed; end in new line; if n<0 only print new line  
+8 write a function that prints a square, followed by a new linel void print_square(int size; size is a the size of square, if size <0 only print new line; use the char # to print the square  
