@@ -25,3 +25,5 @@ int _isdigit(int c);
  * Return: product
  */
 int mul(int a, int b);
+
+void print_numbers(void);
