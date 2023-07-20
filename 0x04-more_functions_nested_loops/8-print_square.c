@@ -16,13 +16,13 @@ void print_square(int size)
 	}
 	else
 	{
-		for (vert = 0; vert < size; vert++)
+		for (vert = 1; vert <= size; vert++)
 		{
-			for (horiz = 0; horiz < size; horiz++)
+			for (horiz = 1; horiz <= size; horiz++)
 			{
 				_putchar('#');
 			}
-		_putchar('\n');
+			_putchar('\n');
 		}
 	}
 }
