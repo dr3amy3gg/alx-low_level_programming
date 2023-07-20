@@ -23,6 +23,6 @@ int main(void)
 			div++;
 		}
 	}
-	printf("lld\n", x);
+	printf("%lld\n", x);
 	return (0);
 }
