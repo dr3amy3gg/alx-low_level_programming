@@ -3,3 +3,4 @@
 2 write a function that returns the length of a string  
 3 write a function that prints a string, followed by a new line , to stdout  
 4 write a function that prints a string, in reverse, followed by a new line  
+5 write a function that reverses a string  
