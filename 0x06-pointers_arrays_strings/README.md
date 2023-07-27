@@ -1,0 +1,1 @@
+0 write a function that concatenates two strings; appends src string to dest string, overwiting terminating null byte at the end of dest, then adds terminating null byte; return pointer to resulting string dest  
