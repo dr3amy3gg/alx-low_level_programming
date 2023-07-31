@@ -2,20 +2,18 @@
 
 /**
  * _strcmp - compare two strings
- * @s1: one string
- * @s2: one string
- * Return: int that tells num spaces in between
+ * @s1: string one
+ * @s2: string two
+ * Return: 0 for identical and >0 if not (string value)
  */
 
 int _strcmp(char *s1, char *s2)
 {
 	int i = 0;
 
-	while (*(s1 + i) == *(s2 + i) && *(s1 + i))
+	while (s1[i] - s2[i] == 0 && s1[i] != '\0')
+	{
 		i++;
-
-	if (*(s2 + i))
-		return (*(s1 + i) - *(s2 + i));
-	else
-		return (0);
+	}
+	return (s1[i] - s2[i]);
 }
