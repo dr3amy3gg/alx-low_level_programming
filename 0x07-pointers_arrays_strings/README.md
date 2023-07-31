@@ -4,3 +4,4 @@
 3 write a function that gets the length of a prefix substring; return number of bytes in initial segment of s which consists of only bytes from accept  
 4 write a function that searches a string for any of a set of bytes; locates the first occurrence in string s of any of the bytes in string accept; returns pointer to the byte in s that matches one of the bytes in accept, or NULL if nonexistent  
 5 write a function that locates a substring; the function finds the first occurrence of the substring needle in the string haystack; null bytes not compared; returns a pointer to the beginning of located substring or NULL  
+6 write a function that prints a chessboard  
