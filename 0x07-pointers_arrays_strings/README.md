@@ -5,3 +5,4 @@
 4 write a function that searches a string for any of a set of bytes; locates the first occurrence in string s of any of the bytes in string accept; returns pointer to the byte in s that matches one of the bytes in accept, or NULL if nonexistent  
 5 write a function that locates a substring; the function finds the first occurrence of the substring needle in the string haystack; null bytes not compared; returns a pointer to the beginning of located substring or NULL  
 6 write a function that prints a chessboard  
+7 write a function that prints the sum of two diagonals of a square mtrix of integers; use stdlib  
