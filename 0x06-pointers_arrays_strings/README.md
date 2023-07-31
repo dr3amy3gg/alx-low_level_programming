@@ -4,3 +4,4 @@
 3 write a function that compares two strings  
 4 write a function that reverses the content of an array of integers; n is the number of elements of the array  
 5 write a function that changes all lowercase letters of a string to uppercase  
+6 write a function that capitlises all words of a string; separator of words: spaces, tabulation, new line, , ; . ! ? " ( ) { }  
