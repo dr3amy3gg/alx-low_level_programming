@@ -12,3 +12,5 @@ int factorial(int n);
 
 int _pow_recursion(int x, int y);
 
+int det_root(int n, int r);
+int _sqrt_recursion(int n);
