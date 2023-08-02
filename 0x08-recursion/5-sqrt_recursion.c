@@ -19,7 +19,7 @@ int det_root(int n, int r)
 		return (r);
 	}
 
-	return (det_root(n, r +1));
+	return (det_root(n, r + 1));
 }
 
 /**
