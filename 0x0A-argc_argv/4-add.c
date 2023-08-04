@@ -15,18 +15,26 @@ int main(int argc, char *argv[])
 	int i;
 	unsigned int sum = 0;
 
+	char *n;
+	int ii;
+
 	if (argc > 1)
 	{
 		for (i = 0; i < argc; i++)
 		{
-			if (isdigit(argv[i]))
+			n = argv[i];
+
+			for (ii = 0; ii < strlen(n); ii++)
 			{
-				sum += atoi(argv[i]);
-			}
-			else
-			{
-				printf("Error\n");
-				return (1);
+				if (n[ii] > 47 && n[ii] < 58)
+				{
+					sum += atoi(n);
+				}
+				else
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
 		}
 	}
