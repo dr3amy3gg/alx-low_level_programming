@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	unsigned int sum = 0;
 
 	char *n;
-	int ii;
+	long unsigned int ii;
 
 	if (argc > 1)
 	{
