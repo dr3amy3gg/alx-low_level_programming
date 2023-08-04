@@ -13,7 +13,7 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int sum = 0;
+	unsigned int sum = 0;
 
 	if (argc > 1)
 	{
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("%d\n", 0);
+		printf("0\n");
 	}
 	printf("%d\n", sum);
 	return (0);
