@@ -26,22 +26,21 @@ int main(int argc, char *argv[])
 
 			for (ii = 0; ii < strlen(n); ii++)
 			{
-				if (n[ii] > 47 && n[ii] < 58)
-				{
-					sum += atoi(n);
-				}
-				else
+				if (n[ii] < 48 || n[ii] > 57)
 				{
 					printf("Error\n");
 					return (1);
 				}
 			}
+			sum += atoi(n);
+			n++;
 		}
+		printf("%d\n", sum);
 	}
 	else
 	{
 		printf("0\n");
 	}
-	printf("%d\n", sum);
+
 	return (0);
 }
