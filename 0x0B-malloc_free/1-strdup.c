@@ -10,11 +10,11 @@
 char *_strdup(char *str)
 {
 	char *dup;
+	int i = 1;
+	int j = 0;
 
 	if (str == NULL)
 		return ('\0');
-
-	int i = 1;
 
 	while (str[i])
 	{
@@ -25,8 +25,6 @@ char *_strdup(char *str)
 
 	if (dup == NULL)
 		return ('\0');
-
-	int j = 0;
 
 	while (j < i)
 	{
