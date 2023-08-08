@@ -2,3 +2,4 @@
 1 write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as parameter; _strdup() function returns a pointer to a new string which is a duplicate of the string str, memory for new string is obtained with malloc and can be freed with free; return NULL if str is NULL; on success, _strdup returns a pointer to the duplicated string, return NULL if insufficients memory was available  
 2 write a function that concatenates two strings; returned pointer should point to a newly allocated space in memory which contains the contents of s1 followed by s2 and null terminated; if NULL is passed, treat as empty string; return NULL on failure  
 3 write a function that returns a pointer to a 2 dimensional array of integers; each element of grid should be initialised to 0; return NULL on failure; if width or height is 0 or negative, return NULL  
+4 write a function that frees a 2D grid, alloc_grid  
