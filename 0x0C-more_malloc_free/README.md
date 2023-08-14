@@ -1,2 +1,3 @@
 0 write a function that allocates memory using malloc; return ptr to allocated memory; if fail, process termination with status value of 98  
 1 write a function that concatenates two strings; returned pointer shall point to a newly allocated space in memory, which contains s1, followed by the first n bytes of s2, null terminated; return null if fail; if n is greater or equal to the length of s2, then use entire string of s2; if null is passed, treat as empty string  
+echo 2 write a function that allocates memory for an array, using malloc; allocates memory for array of 'nmemb' elements of 'size' bytes each and returns pointer to the allocated memory; memory is set to 0; if nmemb or size is 0 return NULL; if malloc fails, return NULL  
